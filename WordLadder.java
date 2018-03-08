@@ -56,7 +56,7 @@ public class WordLadder {
     public static void view (String start, String end,Stack<String> stk)
     {
     	Iterator<String> it = stk.iterator();  
-    	if( stk.size() == 0)
+    	if( stk.size() <= 1)
     	{
     		System.out.print("There is not such a word ladder. \n");
     	}
